@@ -1,0 +1,17 @@
+body {
+	background-color: #000000
+}
+.header {
+	position: sticky;
+	top: 0;
+	text-align: center;
+	font: sans-serif;
+	background-color: #ffffff;
+	transition height 2s;
+}
+.title {
+	font: sans-serif;
+	text-align: center;
+	/*position: sticky;
+	top: 0;*/
+}
