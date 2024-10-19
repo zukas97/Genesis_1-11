@@ -20,20 +20,25 @@ body {
 	/*position: sticky;
 	top: 0;*/
 }
-#left-container {
+.left-container {
 	font: sans-serif;
 	color: #ffffff;
 	white-space: pre-line;
 	width: 50%;
 	margin: 25px;
+	float: left;
+	display: inline;
 }
-#right-container {
+.right-container {
 	float: right;
 	display: inline;
 	margin: 25px;
-	
+	font: sans-serif;
+	color: #ffffff;
+	white-space: pre-line;
+	margin-left: 10%;
 }
-.heading {
+#heading {
 	text-align: center;
 	
 }
