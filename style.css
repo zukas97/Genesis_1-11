@@ -21,13 +21,13 @@ body {
 	top: 0;*/
 }
 .left-container {
+	display: inline;
+	float: left;
 	font: sans-serif;
 	color: #ffffff;
 	white-space: pre-line;
-	width: 50%;
+	width: 45%;
 	margin: 25px;
-	float: left;
-	display: inline;
 }
 .right-container {
 	float: right;
@@ -36,9 +36,11 @@ body {
 	font: sans-serif;
 	color: #ffffff;
 	white-space: pre-line;
-	margin-left: 10%;
+	width: 45%;
+	z-index: 1000;
+	align-items: right;
 }
-#heading {
+.heading {
 	text-align: center;
 	
 }
