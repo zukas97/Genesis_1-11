@@ -18,7 +18,10 @@ body {
 	transition height 2s;
 	color: #5eacd3;
 	border-color: #060606;
-	border: 2px;
+	box-shadow: 0 4px 4px -4px black;
+	width: 100%; 
+	float: center;
+	border-radius: 20px;
 }
 .title {
 	font: sans-serif;
